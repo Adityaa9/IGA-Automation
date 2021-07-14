@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 19 13:09:24 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40112 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testscripts.DummyScrip2.OnBoardUserTest()'><b>OnBoardUserTest</b><br>Test class: testscripts.DummyScrip2<br>Test method: dummy Test script 2<br>Parameters: {Test Case Name=Verify  that the new user gets created into an Savinyt system with birth right access successfully, RunFlag=Y, userName=Test Name 0, Test Case No=TC_1, Age=10.0}<br/>
+<a href="#Output-2038185019" onClick='toggleBox("Output-2038185019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2038185019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2038185019">
+Verify  that the new user gets created into an Savinyt system with birth right access successfully<br/>
+Provided Value (Poorna) in Login User Name<br/>
+Provided Value (Simeio@321) in Login Password<br><a href="screenshot/1621409982798.png" target="_blank" title="view screenshot">View Screnshot</a><br/>
+Clicked on Saviynt Login Button<br/>
+Saiynt Home Page Icon is found in UI within 5.0 seconds<br/>
+Clicked on Application Navigation pop up<br/>
+Clicked on Admin Tile in Application Navigation<br><a href="screenshot/1621409997189.png" target="_blank" title="view screenshot">View Screnshot</a><br/>
+Job COntrol Page Header is found in UI within 5.0 seconds<br/>
+Clicked on Hamburger Menu Icon<br/>
+Clicked on Identity Repository Menu<br><a href="screenshot/1621409997922.png" target="_blank" title="view screenshot">View Screnshot</a><br/>
+Clicked on Users Menu<br><a href="screenshot/1621410004019.png" target="_blank" title="view screenshot">View Screnshot</a><br/>
+Users Page Header is found in UI within 5.0 seconds<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>testscripts.DummyScrip2@a8c1f44</td></tr>
+</table><p>
+</body>
+</html>

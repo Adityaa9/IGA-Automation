@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify that user is provisioned with new role successfully]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (sample1) in Login User Name]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (Simeio@321) in Login Password<br><a href="screenshot/1626260916406.png" target="_blank" title="view screenshot">View Screnshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Saviynt Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Saiynt Home Page Icon is found in UI within 5.0 seconds]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Request for others]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (1800188) in Enter User ID]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Radio button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Next button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Add to Cart Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Checkout Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Add Role]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Next button]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (Approved) in Enter User ID]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Logout Image]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Login Again button]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (1800431) in Login User Name]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (August-2020) in Login Password<br><a href="screenshot/1626261065027.png" target="_blank" title="view screenshot">View Screnshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Saviynt Login Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Logout button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click search icon]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (160550) in Search Request ID]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click request ID link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Accept Account Button]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (Approved) in Enter Comment]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Accept Button]]>
+    </line>
+    <line>
+      <![CDATA[Provided Value (Approved) in Enter Comment]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Click confirm button]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="266727" started-at="2021-07-14T16:38:08 IST" finished-at="2021-07-14T16:42:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="266727" started-at="2021-07-14T16:38:08 IST" finished-at="2021-07-14T16:42:35 IST">
+      <class name="testscripts.DummyScrip3">
+        <test-method status="PASS" signature="LoadTestSetup(org.testng.ITestResult)[pri:0, instance:testscripts.DummyScrip3@485966cc]" name="LoadTestSetup" is-config="true" duration-ms="6606" started-at="2021-07-14T16:38:08 IST" finished-at="2021-07-14T16:38:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DummyScrip3.ProvisionNewRole(java.util.Map)[pri:2, instance:testscripts.DummyScrip3@485966cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadTestSetup -->
+        <test-method status="PASS" signature="ProvisionNewRole(java.util.Map)[pri:2, instance:testscripts.DummyScrip3@485966cc]" name="ProvisionNewRole" duration-ms="259862" started-at="2021-07-14T16:38:15 IST" description="dummy Test script 3" data-provider="test" finished-at="2021-07-14T16:42:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify that user is provisioned with new role successfully, RunFlag=Y, Test Case No=TC_3, Value3=null, Value4=null, Value1=1800188, Value2=Approved}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify that user is provisioned with new role successfully]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (sample1) in Login User Name]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (Simeio@321) in Login Password<br><a href="screenshot/1626260916406.png" target="_blank" title="view screenshot">View Screnshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Saviynt Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Saiynt Home Page Icon is found in UI within 5.0 seconds]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Request for others]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (1800188) in Enter User ID]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Radio button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Next button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Add to Cart Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Checkout Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Add Role]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Next button]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (Approved) in Enter User ID]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Logout Image]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Login Again button]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (1800431) in Login User Name]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (August-2020) in Login Password<br><a href="screenshot/1626261065027.png" target="_blank" title="view screenshot">View Screnshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Saviynt Login Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Logout button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click search icon]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (160550) in Search Request ID]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click request ID link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Accept Account Button]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (Approved) in Enter Comment]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Accept Button]]>
+            </line>
+            <line>
+              <![CDATA[Provided Value (Approved) in Enter Comment]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Click confirm button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProvisionNewRole -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testscripts.DummyScrip3@485966cc]" name="cleanup" is-config="true" duration-ms="158" started-at="2021-07-14T16:42:34 IST" finished-at="2021-07-14T16:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- testscripts.DummyScrip3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
