@@ -383,8 +383,7 @@ public class DummyScrip3 extends TestRunner {
 	String requestable=(String) mObj.get("Value4");
 	
 	HomePage homePage = new HomePage(driver);
-//	JobControlPage jobControlPage = new JobControlPage(driver);
-//	UsersPage userPage = new UsersPage(driver);
+
 	
 	driver.get(appUrl);
 	
